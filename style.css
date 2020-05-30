@@ -3,7 +3,7 @@
     --page-2-color: rgb(243, 187, 191);
     --page-3-color: rgb(190, 219, 123);
     --page-4-color: rgb(240, 206, 168);
-    --animate-speed: 1s;
+    --animate-speed: 2s;
 
 }
 
@@ -79,13 +79,13 @@ body {
 
 
     #page-1 h1{
-        transform: translateY(-12000px);
-        animation: heading var(--animate-speed) forwards ease-in ;
+        transform: translateY(-1200px);
+        animation: heading var(--animate-speed) forwards ease-in 2s ;
     }
 
 
     #page-1 p{
-        transform: translateX(-12000px);
+        transform: translateX(-1800px);
         animation: text var(--animate-speed) forwards ease-in 2s;
 
     }
